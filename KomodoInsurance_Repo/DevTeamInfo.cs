@@ -22,6 +22,5 @@ namespace KomodoInsurance_Repo
             DevTeam = devTeam;
             Manager = manager;
         }
-        //Needs PluralSight List
     }
 }

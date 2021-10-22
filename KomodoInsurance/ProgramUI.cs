@@ -13,19 +13,7 @@ namespace KomodoInsurance_Console
         private readonly DeveloperRepo _devRoster = new DeveloperRepo();
         private readonly DevTeamRepo _gTeam = new DevTeamRepo();
         private readonly DevTeamRepo _bTeam = new DevTeamRepo();
-        //Welcome and main menu 
-        //1.List of developers
-        //2.List of Teams with devloper names
-        //3.Need pluralSight access `
-        //Manage Developer info (Managers access only)
-        //Exit
 
-        //Managers Menu
-        //1 Add Developer
-        //2 Remove Developer
-        //3 Upate Developer info
-        //3 Assign team members to teams Gold, Blue, Red
-        //4 Remove team members 
         public void Run()
         {
             SeedContent();

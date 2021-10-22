@@ -12,7 +12,6 @@ namespace KomodoInsurance_Repo
         protected readonly List<DevTeamInfo> _goldTeam = new List<DevTeamInfo>();
         protected readonly List<DevTeamInfo> _blueTeam = new List<DevTeamInfo>();
 
-        //Create Team
         public bool AddToGoldTeam(DevTeamInfo teamMember)
         {
             int startingCount = _goldTeam.Count;

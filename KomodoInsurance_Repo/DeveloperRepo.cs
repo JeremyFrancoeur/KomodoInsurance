@@ -8,8 +8,7 @@ namespace KomodoInsurance_Repo
 {
     public class DeveloperRepo : DevTeamInfo
     {
-        //Create
-        //Developers
+       
         protected readonly List<DeveloperInfo> _developerRoster = new List<DeveloperInfo>();
         public bool AddDeveloperToRoster(DeveloperInfo developer)
         {
@@ -19,8 +18,6 @@ namespace KomodoInsurance_Repo
             bool developerAdded = _developerRoster.Count > startingCount ? true : false;
             return developerAdded;
         }
-
-        //Read
 
         public List<DeveloperInfo> AllDevelopers()
         {
@@ -79,8 +76,6 @@ namespace KomodoInsurance_Repo
             }
             return needsAccess;
         }
-
-        //Delete
         public bool DeleteDeveloper(DeveloperInfo developer)
         {
             bool deleteResult = _developerRoster.Remove(developer);
