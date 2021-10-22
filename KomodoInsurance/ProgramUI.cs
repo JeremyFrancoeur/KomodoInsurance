@@ -115,15 +115,13 @@ namespace KomodoInsurance_Console
         }
         private void ManagerAccess()
         {
-            Console.WriteLine("What is your last name?");
-            if (Console.ReadLine() == "Code")
+            Console.WriteLine("What is your password?");
+            if (Console.ReadLine() == "QAZwsx")
             {
                 AddDevelopersToTeam();
             }
             RunMenu();
-
         }
-
         private void AddDevelopersToTeam()
         {
             bool continueToRun = true;
